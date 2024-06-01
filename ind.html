@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Receita</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="estilos1.css">
+<style>
+  .ingredientes {
+    text-align: left;
+  }
+</style>
+</head>
+<body>
+
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Fechar Menu</a>
+  <a href="#comida" onclick="w3_close()" class="w3-bar-item w3-button">Comida</a>
+  <a href="#sobre" onclick="w3_close()" class="w3-bar-item w3-button">Sobre Nós</a>
+  <a href="#Detalhes" onclick="w3_close()" class="w3-bar-item w3-button">Detalhes</a>
+  <a href="#Contactos" onclick="w3_close()" class="w3-bar-item w3-button">Contactos</a>
+  <a href="#localizacao" onclick="w3_close()" class="w3-bar-item w3-button">A Nossa Localização</a>
+  <a href="#Blog" onclick="w3_close()" class="w3-bar-item w3-button">Blog</a>
+</nav>
+
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16"></div>
+    <h1 class="w3-center">Sabores Caseiros</h1>
+  </div>
+</div>
+
+<hr id="comida">
+
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="salada.jpg" alt="Salada" style="width:100%">
+      <h3>Saladas fáceis e rápidas</h3>
+      <p>Saladas para preparar em casa quando temos pouco tempo.</p>
+      <a href="file:///C:/Users/sofic/OneDrive/Desktop/projeto/ind.html#Detalhes">Ver mais</a> 
+    </div>
+    <div class="w3-quarter">
+      <img src="hamburger-494706_1280.jpg" alt="hamburger" style="width:100%">
+      <h3>Hambúrgueres</h3>
+      <p>Hambúrgueres caseiras.</p>
+      <a href="detalhes.html">Ver mais</a> 
+    </div>
+    <div class="w3-quarter">
+      <img src="spring-roll-6760871_640.jpg" alt="asiatica" style="width:100%">
+      <h3>Comida asiática</h3>
+      <p>Spring rolls de camarão.</p>
+      <a href="detalhes.html">Ver mais</a> 
+    </div>
+    <div class="w3-quarter">
+      <img src="cinnamon-rolls-1417494_640.jpg" alt="roll" style="width:100%">
+      <h3>Sobremesas</h3>
+      <p>Sobremesas simples.</p>
+      <p>Sobremesas com só 4 ingredientes.</p>
+      <a href="detalhes.html">Ver mais</a> 
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="cooking-2132874_640.jpg" alt="cinnamon" style="width:100%">
+      <h3>Patelaria</h3>
+      <p>Pastelaria doce e salgada.</p>
+      <a href="detalhes.html">Ver mais</a> 
+    </div>
+    <div class="w3-quarter">
+      <img src="pancakes-5989144_640.jpg" alt="peqalmoço" style="width:100%">
+      <h3>Pequeno almoço</h3>
+      <p>Pequeno almoço em casa.</p>
+      <a href="detalhes.html">Ver mais</a> 
+    </div>
+    <div class="w3-quarter">
+      <img src="pizza-3010062_640.jpg" alt="pizza" style="width:100%">
+      <h3>Comida Italiana</h3>
+      <p>Pizza artesanal.</p>
+      <a href="detalhes.html">Ver mais</a> 
+    </div>
+    <div class="w3-quarter">
+      <img src="shish-kebab-417994_640.jpg" alt="Espetadas" style="width:100%">
+      <h3>Receitas sem Glútem</h3>
+      <p>Espetadas.</p>
+      <a href="detalhes.html">Ver mais</a> 
+    </div>
+  </div>
+
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <hr id="sobre">
+
+  <div class="w3-container w3-padding-32 w3-center">
+    <h2>Sobre Nós</h2><br>
+    <div class="w3-padding-32">
+      <h4><b>João Pereira</b></h4>
+      <h6><i>Olá, sou João, tenho 19 anos, sou de Portugal e o meu número de aluno é: 51627</i></h6>
+      <h4><b>Sofia Ortiz</b></h4>
+      <h6>Olá, sou Sofia, tenho 20 anos, sou da Costa Rica e o meu número de aluno é: 51333</h6>
+      <div class="w3-padding-32"></div>
+      <h3>A nossa paixão é a comida</h3>
+    </div>
+  </div>
+  <hr>
+
+  <div id="Detalhes" class="w3-container w3-padding-32 w3-center">
+    <h2>Detalhes</h2>
+    <h3>Receitas</h3>
+    <div class="w3-row-padding w3-padding-16 w3-center">
+      <div class="w3-third">
+        <img src="salada.jpg" alt="Salada" style="width:100%">
+      </div>
+      <div class="w3-third ingredientes">
+        <h4>Ingredientes:</h4>
+        <ul>
+          <li>2 tomates cortados em rodelas</li>
+          <li>1 pimentão amarelo cortado</li>
+          <li>10 azeitonas sem caroço</li>
+          <li>salsinha a gosto</li>
+          <li>5 folhas de alface</li>
+          <li>1 colher de mostarda</li>
+          <li>1 colher de azeite</li>
+          <li>1 pitada de sal</li>
+          <li>1 colher de vinagre</li>
+        </ul>
+      </div>
+      <div class="w3-third ingredientes">
+        <h4>Modo de Preparação:</h4>
+        <ul>
+          <li>Misture a mostarda, o azeite, o sal e o vinagre.</li>
+          <li>Em outro recipiente, coloque as alfaces e o tomate.</li>
+          <li>Acrescente os pimentões, as azeitonas e a salsinha.</li>
+          <li>Tempere a salada com a mistura de mostarda.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <hr id="Contactos">
+
+  <div class="w3-container w3-padding-32 w3-center">
+    <h2>Contactos</h2>
+    <form action="enviar-contato.html" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <hr id="localizacao">
+
+  <div class="w3-container w3-padding-32 w3-center">
+    <h2>A Nossa Localização</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.4287853057594!2d144.96314781563706!3d-37.81410797975159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577bb6bbef18b7c!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1589617018426!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+
+  <hr id="Blog">
+
+  <div class="w3-container w3-padding-32 w3-center">
+    <h2>Blog</h2>
+    <article>
+      <h3>Massa de Pizza</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VLG0shV8k1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </article>
+    <article>
+      <h3>Um audio de nós para si</h3>
+      <audio controls>
+        <source src="https://www.bensound.com/bensound-music/bensound-sunny.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </article>
+  </div>
+  
+  <footer class="w3-container w3-padding-32 w3-center">
+    <div class="social-icons">
+      <a href="https://facebook.com"><img src="fb.jpg" alt="Facebook"></a>
+      <a href="https://instagram.com"><img src="insta.png" alt="Instagram"></a>
+      <a href="https://youtube.com"><img src="youtube.png" alt="youtube"></a>
+    </div>
+    <p>&copy; 2024. Todos os direitos reservados.</p>
+  </footer>
+
+</div>
+
+<script> 
+
+  function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+  }
+
+  function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+  }
+</script>
+</body>
+</html>
